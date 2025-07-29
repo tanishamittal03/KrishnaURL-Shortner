@@ -46,5 +46,5 @@ A full-fledged URL shortener built with Node.js, Express, SQLite, JWT authentica
 
 ## 👩‍💻 Developer
 **Tanisha Mittal**
-- Email: tanisha.mittal@example.com
-- GitHub: [tanisha-mittal](https://github.com/tanisha-mittal)
+- Email: 2023kucp1163@iiitkota.ac.in
+- GitHub: [tanisha-mittal](https://github.com/tanishamittal03)
