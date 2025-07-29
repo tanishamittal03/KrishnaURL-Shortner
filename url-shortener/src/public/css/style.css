@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.card {
+  background: rgba(255,255,255,0.95);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255,255,255,0.18);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+input[type="text"], input[type="password"] {
+  width: 80%;
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: #23a6d5;
+}
+
+button {
+  background: linear-gradient(90deg, #23a6d5, #e73c7e);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #ee7752, #23d5ab);
+  transform: scale(1.05);
+}
+
+a {
+  color: #23a6d5;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #e73c7e;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: rgba(255,255,255,0.8);
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(31,38,135,0.1);
+  transition: box-shadow 0.2s;
+}
+
+li:hover {
+  box-shadow: 0 4px 16px rgba(31,38,135,0.2);
+}
